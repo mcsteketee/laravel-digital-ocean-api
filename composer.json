@@ -1,0 +1,29 @@
+{
+    "name": "mcsteketee/laravel-digital-ocean-api",
+    "description": "A laravel package for using the digital ocean API",
+    "type": "library",
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/support": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marten Steketee",
+            "email": "marten@mcsteketee.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "MCSteketee\\LaravelLogEnhancer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MCSteketee\\LaravelDigitalOceanApi\\LaravelDigitalOceanApiServiceProvider"
+            ]
+        }
+    }
+}
